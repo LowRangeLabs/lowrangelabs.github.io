@@ -436,6 +436,12 @@ a { color: inherit; text-decoration: none; }
 
 .contact a:hover { border-color: var(--accent-2); }
 
+.contact-alt {
+  margin-top: 0.6em;
+  font-size: 0.92rem;
+  color: var(--text-muted);
+}
+
 /* ---------- Footer ---------- */
 .site-footer {
   position: relative;

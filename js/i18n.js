@@ -45,6 +45,7 @@ const LRL_I18N = {
     "contact.eyebrow": "Contact",
     "contact.title": "Ai un proiect complex, o idee neconvențională sau vrei doar să explorăm o colaborare?",
     "contact.text": "Scrie-ne la <a href=\"mailto:contact@lowrangelabs.com\">contact@lowrangelabs.com</a> — nu există provocare prea mare.",
+    "contact.text2": "Sau sună-ne la <a href=\"tel:+40771340319\">0771 340 319</a>, ori trimite-ne un mesaj pe <a href=\"https://www.linkedin.com/company/lowrange-labs/\" target=\"_blank\" rel=\"noopener\">LinkedIn</a>.",
 
     "footer.tagline": "Sisteme software solide. Construite fără compromisuri.",
     "footer.copyright": "© 2026 LowRange Labs. All rights reserved."
@@ -96,6 +97,7 @@ const LRL_I18N = {
     "contact.eyebrow": "Contact",
     "contact.title": "Got a complex project, an unconventional idea, or just want to explore a collaboration?",
     "contact.text": "Reach out at <a href=\"mailto:contact@lowrangelabs.com\">contact@lowrangelabs.com</a> — no challenge is too big.",
+    "contact.text2": "Or call us at <a href=\"tel:+40771340319\">0771 340 319</a>, or send us a message on <a href=\"https://www.linkedin.com/company/lowrange-labs/\" target=\"_blank\" rel=\"noopener\">LinkedIn</a>.",
 
     "footer.tagline": "Solid software systems. Built without compromise.",
     "footer.copyright": "© 2026 LowRange Labs. All rights reserved."
