@@ -8,20 +8,20 @@ const LRL_I18N = {
     "nav.contact": "Contact",
 
     "hero.title": "Sisteme software solide.<br>Aplicații și jocuri construite<br>fără compromisuri.",
-    "hero.subtitle": "La LowRange Labs, combinăm ingineria software riguroasă, dezvoltarea de jocuri 2D și integrările AI moderne pentru a crea produse proprii de top și soluții tehnice custom pentru afaceri.",
+    "hero.subtitle": "Construim sisteme software solide, la limita dintre inginerie riguroasă și inteligență artificială — de la produse proprii, până la soluții custom pentru afaceri, indiferent de complexitate.",
     "hero.cta_primary": "Explorează Proiectele",
     "hero.cta_secondary": "Consultanță &amp; Servicii B2B",
 
     "about.eyebrow": "Despre Noi",
     "about.title": "Tracțiune Maximă în Software",
     "about.p1": "Numele nostru vine din lumea off-road &amp; overlanding: reductorul (Low Range) este cel care oferă cuplul și puterea maximă pentru a depăși cele mai grele terenuri.",
-    "about.p2": "Aplicăm aceeași filosofie în ingineria software: scriem cod curat, construim arhitecturi stabile și livrăm soluții tehnice capabile să gestioneze provocări complexe — de la aplicații de navigație în natură și jocuri pe matrice, până la automatizări enterprise și integrări AI.",
+    "about.p2": "Aplicăm aceeași filosofie în ingineria software: scriem cod curat, construim arhitecturi stabile și livrăm soluții tehnice capabile să gestioneze provocări complexe — de la aplicații mobile bazate pe hărți și geolocalizare, la jocuri de toate genurile, până la integrări AI și unelte software complexe.",
 
     "portfolio.eyebrow": "Portofoliu",
-    "portfolio.title": "Produse Proprii",
+    "portfolio.title": "Ce Construim Acum",
 
     "outroads.desc": "Aplicație mobilă dedicată explorării responsabile și comunității overlanding/outdoor. Oferă hărți cu ariile protejate din Europa (Natura 2000), restricții legale actualizate și orientare eficientă în teren.",
-    "outroads.status": "În Dezvoltare",
+    "outroads.status": "Lansare În Curând",
 
     "snakshund.desc": "Un joc puzzle interactiv bazat pe o mecanică clasică de grid, reinterpretată într-un stil vizual unic și un gameplay bazat pe fizică și logică.",
     "snakshund.status": "În Curând pe iOS &amp; Android",
@@ -33,18 +33,18 @@ const LRL_I18N = {
     "blockpuzzle.tag2": "Logică",
 
     "services.title": "Consultanță &amp; Servicii Tehnice",
-    "services.subtitle": "Ajutăm companiile să automatizeze procese și să construiască produse digitale rapide.",
+    "services.subtitle": "De la integrări punctuale la sisteme complexe end-to-end — suntem deschiși la orice tip de colaborare, oricât de mare provocarea tehnică.",
 
     "service1.title": "Dezvoltare Web &amp; Mobile Custom",
-    "service1.desc": "Aplicații de înaltă performanță, optimizate pentru viteză, scalabilitate și securitate.",
+    "service1.desc": "Aplicații de înaltă performanță, de la MVP-uri rapide până la platforme complexe, optimizate pentru viteză, scalabilitate și securitate.",
     "service2.title": "Integrări AI &amp; Automatizări",
     "service2.desc": "Arhitecturi moderne pentru eficientizarea fluxurilor de lucru interne folosind LLM-uri și modele generative.",
     "service3.title": "QA Automation &amp; Arhitectură Software",
     "service3.desc": "Audit tehnic, teste automate pentru aplicații mobile/web și optimizarea performanței.",
 
     "contact.eyebrow": "Contact",
-    "contact.title": "Ai un proiect în minte sau vrei să colaborăm?",
-    "contact.text": "Trimite-ne un mesaj la <a href=\"mailto:contact@lowrangelabs.com\">contact@lowrangelabs.com</a> și hai să discutăm.",
+    "contact.title": "Ai un proiect complex, o idee neconvențională sau vrei doar să explorăm o colaborare?",
+    "contact.text": "Scrie-ne la <a href=\"mailto:contact@lowrangelabs.com\">contact@lowrangelabs.com</a> — nu există provocare prea mare.",
 
     "footer.tagline": "Sisteme software solide. Construite fără compromisuri.",
     "footer.copyright": "© 2026 LowRange Labs. All rights reserved."
@@ -59,20 +59,20 @@ const LRL_I18N = {
     "nav.contact": "Contact",
 
     "hero.title": "Engineering rugged software.<br>Apps and games built<br>without compromise.",
-    "hero.subtitle": "At LowRange Labs, we combine rigorous software engineering, 2D game development, and modern AI integrations to build top-tier products of our own and custom technical solutions for businesses.",
+    "hero.subtitle": "We build solid software systems, at the intersection of rigorous engineering and artificial intelligence — from our own products to custom business solutions, no matter the complexity.",
     "hero.cta_primary": "Explore Our Projects",
     "hero.cta_secondary": "Consulting &amp; B2B Services",
 
     "about.eyebrow": "About Us",
     "about.title": "Maximum Traction in Software",
     "about.p1": "Our name comes from the off-road &amp; overlanding world: the transfer case's Low Range is what delivers maximum torque and power to get through the toughest terrain.",
-    "about.p2": "We apply the same philosophy to software engineering: we write clean code, build stable architectures, and deliver technical solutions capable of handling complex challenges — from outdoor navigation apps and grid-based games to enterprise automation and AI integrations.",
+    "about.p2": "We apply the same philosophy to software engineering: we write clean code, build stable architectures, and deliver technical solutions capable of handling complex challenges — from map- and geolocation-based mobile apps, to games of every genre, to AI integrations and complex software tooling.",
 
     "portfolio.eyebrow": "Portfolio",
-    "portfolio.title": "Our Products",
+    "portfolio.title": "What We're Building",
 
     "outroads.desc": "A mobile app dedicated to responsible exploration and the overlanding/outdoor community. It provides maps of protected areas across Europe (Natura 2000), up-to-date legal restrictions, and efficient wayfinding in the field.",
-    "outroads.status": "In Development",
+    "outroads.status": "Coming Soon",
 
     "snakshund.desc": "An interactive puzzle game built on a classic grid mechanic, reinterpreted with a unique visual style and physics-and-logic-driven gameplay.",
     "snakshund.status": "Coming Soon on iOS &amp; Android",
@@ -84,18 +84,18 @@ const LRL_I18N = {
     "blockpuzzle.tag2": "Logic",
 
     "services.title": "Consulting &amp; Technical Services",
-    "services.subtitle": "We help companies automate processes and build digital products fast.",
+    "services.subtitle": "From point integrations to complex end-to-end systems — we're open to any kind of collaboration, no matter the technical challenge.",
 
     "service1.title": "Custom Web &amp; Mobile Development",
-    "service1.desc": "High-performance applications, optimized for speed, scalability, and security.",
+    "service1.desc": "High-performance applications, from rapid MVPs to complex platforms, optimized for speed, scalability, and security.",
     "service2.title": "AI Integrations &amp; Automation",
     "service2.desc": "Modern architectures that streamline internal workflows using LLMs and generative models.",
     "service3.title": "QA Automation &amp; Software Architecture",
     "service3.desc": "Technical audits, automated testing for mobile/web apps, and performance optimization.",
 
     "contact.eyebrow": "Contact",
-    "contact.title": "Got a project in mind, or want to collaborate?",
-    "contact.text": "Send us a message at <a href=\"mailto:contact@lowrangelabs.com\">contact@lowrangelabs.com</a> and let's talk.",
+    "contact.title": "Got a complex project, an unconventional idea, or just want to explore a collaboration?",
+    "contact.text": "Reach out at <a href=\"mailto:contact@lowrangelabs.com\">contact@lowrangelabs.com</a> — no challenge is too big.",
 
     "footer.tagline": "Solid software systems. Built without compromise.",
     "footer.copyright": "© 2026 LowRange Labs. All rights reserved."
