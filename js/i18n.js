@@ -1,106 +1,89 @@
 const LRL_I18N = {
-  ro: {
-    "meta.title": "LowRange Labs — Sisteme software solide, aplicații și jocuri",
+  "ro": {
+    "meta.title": "LowRange Labs — Aplicații, automatizări și integrări AI",
     "nav.home": "Acasă",
-    "nav.about": "Despre Noi",
+    "nav.about": "Despre noi",
     "nav.portfolio": "Portofoliu",
     "nav.services": "Servicii",
     "nav.contact": "Contact",
-
-    "hero.title": "Sisteme software solide.<br>Aplicații și jocuri construite<br>fără compromisuri.",
-    "hero.subtitle": "Construim sisteme software solide, la limita dintre inginerie riguroasă și inteligență artificială — de la produse proprii, până la soluții custom pentru afaceri, indiferent de complexitate.",
-    "hero.cta_primary": "Explorează Proiectele",
-    "hero.cta_secondary": "Consultanță &amp; Servicii B2B",
-
-    "about.eyebrow": "Despre Noi",
-    "about.title": "Tracțiune Maximă în Software",
-    "about.p1": "Numele nostru vine din lumea off-road &amp; overlanding: reductorul (Low Range) este cel care oferă cuplul și puterea maximă pentru a depăși cele mai grele terenuri.",
-    "about.p2": "Aplicăm aceeași filosofie în ingineria software: scriem cod curat, construim arhitecturi stabile și livrăm soluții tehnice capabile să gestioneze provocări complexe — de la aplicații mobile bazate pe hărți și geolocalizare, la jocuri de toate genurile, până la integrări AI și unelte software complexe.",
-
-    "portfolio.eyebrow": "Portofoliu",
-    "portfolio.title": "Ce Construim Acum",
-
-    "outroads.desc": "Aplicație mobilă dedicată explorării responsabile și comunității overlanding/outdoor. Oferă hărți cu ariile protejate din Europa (Natura 2000), restricții legale actualizate și orientare eficientă în teren.",
-    "outroads.status": "Lansare În Curând",
-
-    "snakshund.desc": "Un joc puzzle interactiv bazat pe o mecanică clasică de grid, reinterpretată într-un stil vizual unic și un gameplay bazat pe fizică și logică.",
-    "snakshund.status": "În Curând pe iOS &amp; Android",
-
+    "hero.title": "Aplicații utile.<br>Automatizări și integrări AI.",
+    "hero.subtitle": "Construim lucruri utile: aplicații, website-uri, automatizări și integrări AI. Dezvoltăm produse proprii și soluții pentru clienți. Folosim AI ca să simplificăm munca, să conectăm instrumente și să scoatem mai mult sens din informațiile pe care le ai deja.",
+    "hero.cta_primary": "Vezi proiectele",
+    "hero.cta_secondary": "Cum te putem ajuta",
+    "about.eyebrow": "Despre noi",
+    "about.title": "De unde vine LowRange",
+    "about.p1": "Numele nostru vine din pasiunea pentru off-road și explorare. „Low range” este treapta de reductor care te ajută să înaintezi cu mai mult control pe teren dificil.",
+    "about.p2": "Aceeași răbdare ne ghidează și în dezvoltarea software. Căutăm să înțelegem bine problema, alegem soluțiile potrivite și construim cu grijă pentru cei care vor folosi produsul.",
+    "portfolio.eyebrow": "Proiectele noastre",
+    "portfolio.title": "La ce lucrăm",
+    "outroads.desc": "O aplicație pentru cei cărora le place să exploreze în aer liber. Reunește hărți ale ariilor protejate din Europa și informații despre restricțiile de acces, pentru a te ajuta să îți planifici ieșirile cu grijă pentru natură.",
+    "outroads.status": "Lansare în curând",
+    "snakshund.desc": "Un joc puzzle care combină logica și fizica. Fiecare mutare pe tabla de joc este o ocazie să încerci o nouă soluție.",
+    "snakshund.status": "În curând pe iOS și Android",
     "blockpuzzle.name": "Block Puzzle Project",
-    "blockpuzzle.desc": "Un titlu casual axat pe performanță, interfață fluidă și o experiență de joc captivantă fără timpi de așteptare.",
-    "blockpuzzle.status": "În Dezvoltare",
+    "blockpuzzle.desc": "Un proiect de joc cu blocuri și provocări de logică, gândit pentru momentele în care ai chef de o pauză.",
+    "blockpuzzle.status": "În dezvoltare",
     "blockpuzzle.tag1": "Casual",
     "blockpuzzle.tag2": "Logică",
-
-    "services.title": "Consultanță &amp; Servicii Tehnice",
-    "services.subtitle": "De la integrări punctuale la sisteme complexe end-to-end — suntem deschiși la orice tip de colaborare, oricât de mare provocarea tehnică.",
-
-    "service1.title": "Dezvoltare Web &amp; Mobile Custom",
-    "service1.desc": "Aplicații de înaltă performanță, de la MVP-uri rapide până la platforme complexe, optimizate pentru viteză, scalabilitate și securitate.",
-    "service2.title": "Integrări AI &amp; Automatizări",
-    "service2.desc": "Arhitecturi moderne pentru eficientizarea fluxurilor de lucru interne folosind LLM-uri și modele generative.",
-    "service3.title": "QA Automation &amp; Arhitectură Software",
-    "service3.desc": "Audit tehnic, teste automate pentru aplicații mobile/web și optimizarea performanței.",
-
+    "services.title": "Cum te putem ajuta",
+    "services.subtitle": "Ai nevoie de o aplicație nouă, de îmbunătățiri la un produs existent sau vrei să afli cum ai putea folosi AI în activitatea ta? Pornim de la ce vrei să obții și stabilim împreună pașii următori.",
+    "service1.title": "Aplicații web și mobile",
+    "service1.desc": "Dezvoltăm aplicații adaptate nevoilor afacerii tale, de la o primă versiune pentru testarea ideii până la dezvoltarea unui produs existent.",
+    "service2.title": "Integrări și automatizări cu AI",
+    "service2.desc": "Conectăm AI la aplicațiile pe care le folosești și automatizăm sarcini repetitive. Putem crea asistenți AI, instrumente pentru prelucrarea documentelor sau soluții care te ajută să găsești mai ușor informațiile de care ai nevoie.",
+    "service3.title": "Testare și consultanță tehnică",
+    "service3.desc": "Verificăm aplicații, automatizăm testele și identificăm problemele de performanță. Te ajutăm să iei decizii tehnice și să pregătești următorii pași ai proiectului.",
     "contact.eyebrow": "Contact",
-    "contact.title": "Ai un proiect complex, o idee neconvențională sau vrei doar să explorăm o colaborare?",
-    "contact.text": "Scrie-ne la <a href=\"mailto:contact@lowrangelabs.com\">contact@lowrangelabs.com</a> — nu există provocare prea mare.",
-    "contact.text2": "Sau sună-ne la <a href=\"tel:+40771340319\">0771 340 319</a>, ori trimite-ne un mesaj pe <a href=\"https://www.linkedin.com/company/lowrange-labs/\" target=\"_blank\" rel=\"noopener\">LinkedIn</a>.",
-
-    "footer.tagline": "Sisteme software solide. Construite fără compromisuri.",
-    "footer.copyright": "© 2026 LowRange Labs. All rights reserved."
+    "contact.title": "Hai să vorbim despre proiectul tău.",
+    "contact.text": "Ai o idee de aplicație sau vrei să afli cum te-ar putea ajuta AI? Spune-ne ce ai în minte.",
+    "contact.text2": "Sună-ne la <a href=\"tel:+40771340319\">0771 340 319</a> sau trimite-ne un mesaj pe <a href=\"https://www.linkedin.com/company/lowrange-labs/\" target=\"_blank\" rel=\"noopener\">LinkedIn</a>.",
+    "footer.tagline": "Aplicații și jocuri, construite cu grijă.",
+    "footer.copyright": "© 2026 LowRange Labs. All rights reserved.",
+    "service4.title": "Consultanță AI",
+    "service4.desc": "Te ajutăm să înțelegi ce poți face cu AI în afacerea ta, să alegi instrumentele potrivite și să le testezi pe sarcini concrete. Discutăm deschis despre beneficii, costuri și limite, ca să știi de unde să începi."
   },
-
-  en: {
-    "meta.title": "LowRange Labs — Rugged Software, Apps &amp; Games",
+  "en": {
+    "meta.title": "LowRange Labs — Apps, AI automation and integrations",
     "nav.home": "Home",
     "nav.about": "About",
     "nav.portfolio": "Portfolio",
     "nav.services": "Services",
     "nav.contact": "Contact",
-
-    "hero.title": "Engineering rugged software.<br>Apps and games built<br>without compromise.",
-    "hero.subtitle": "We build solid software systems, at the intersection of rigorous engineering and artificial intelligence — from our own products to custom business solutions, no matter the complexity.",
-    "hero.cta_primary": "Explore Our Projects",
-    "hero.cta_secondary": "Consulting &amp; B2B Services",
-
-    "about.eyebrow": "About Us",
-    "about.title": "Maximum Traction in Software",
-    "about.p1": "Our name comes from the off-road &amp; overlanding world: the transfer case's Low Range is what delivers maximum torque and power to get through the toughest terrain.",
-    "about.p2": "We apply the same philosophy to software engineering: we write clean code, build stable architectures, and deliver technical solutions capable of handling complex challenges — from map- and geolocation-based mobile apps, to games of every genre, to AI integrations and complex software tooling.",
-
-    "portfolio.eyebrow": "Portfolio",
-    "portfolio.title": "What We're Building",
-
-    "outroads.desc": "A mobile app dedicated to responsible exploration and the overlanding/outdoor community. It provides maps of protected areas across Europe (Natura 2000), up-to-date legal restrictions, and efficient wayfinding in the field.",
+    "hero.title": "Useful apps.<br>AI automation and integrations.",
+    "hero.subtitle": "We build useful things: apps, websites, automations and AI integrations. We develop our own products and solutions for clients. We use AI to simplify work, connect tools and make more sense of the information you already have.",
+    "hero.cta_primary": "See our projects",
+    "hero.cta_secondary": "How we can help",
+    "about.eyebrow": "About us",
+    "about.title": "The story behind LowRange",
+    "about.p1": "Our name comes from a love of off-road travel and exploring. Low range gearing helps you move through difficult terrain with more control.",
+    "about.p2": "That same patience guides how we build software. We take time to understand the problem, choose the right approach and build with care for the people who will use the product.",
+    "portfolio.eyebrow": "Our projects",
+    "portfolio.title": "What we’re working on",
+    "outroads.desc": "An app for people who enjoy exploring outdoors. It brings together maps of protected areas across Europe and information about access restrictions to help you plan your trips with care for nature.",
     "outroads.status": "Coming Soon",
-
-    "snakshund.desc": "An interactive puzzle game built on a classic grid mechanic, reinterpreted with a unique visual style and physics-and-logic-driven gameplay.",
+    "snakshund.desc": "A puzzle game that combines logic and physics. Each move on the board is a chance to try a new solution.",
     "snakshund.status": "Coming Soon on iOS &amp; Android",
-
     "blockpuzzle.name": "Block Puzzle Project",
-    "blockpuzzle.desc": "A casual title focused on performance, a fluid interface, and an engaging play experience with no waiting around.",
+    "blockpuzzle.desc": "A block puzzle project with logic challenges, designed for those moments when you feel like taking a break.",
     "blockpuzzle.status": "In Development",
     "blockpuzzle.tag1": "Casual",
     "blockpuzzle.tag2": "Logic",
-
-    "services.title": "Consulting &amp; Technical Services",
-    "services.subtitle": "From point integrations to complex end-to-end systems — we're open to any kind of collaboration, no matter the technical challenge.",
-
-    "service1.title": "Custom Web &amp; Mobile Development",
-    "service1.desc": "High-performance applications, from rapid MVPs to complex platforms, optimized for speed, scalability, and security.",
-    "service2.title": "AI Integrations &amp; Automation",
-    "service2.desc": "Modern architectures that streamline internal workflows using LLMs and generative models.",
-    "service3.title": "QA Automation &amp; Software Architecture",
-    "service3.desc": "Technical audits, automated testing for mobile/web apps, and performance optimization.",
-
+    "services.title": "How we can help",
+    "services.subtitle": "Need a new app, improvements to an existing product, or help figuring out how AI could fit into your work? We start with what you want to achieve and work out the next steps together.",
+    "service1.title": "Web and mobile apps",
+    "service1.desc": "We build apps around your business needs, from a first version to test an idea to further development of an existing product.",
+    "service2.title": "AI integrations and automation",
+    "service2.desc": "We connect AI to the apps you use and automate repetitive tasks. We can build AI assistants, document processing tools and ways to find the information you need more easily.",
+    "service3.title": "Testing and technical consulting",
+    "service3.desc": "We review apps, automate tests and identify performance issues. We help you make technical decisions and plan the next steps for your project.",
     "contact.eyebrow": "Contact",
-    "contact.title": "Got a complex project, an unconventional idea, or just want to explore a collaboration?",
-    "contact.text": "Reach out at <a href=\"mailto:contact@lowrangelabs.com\">contact@lowrangelabs.com</a> — no challenge is too big.",
-    "contact.text2": "Or call us at <a href=\"tel:+40771340319\">0771 340 319</a>, or send us a message on <a href=\"https://www.linkedin.com/company/lowrange-labs/\" target=\"_blank\" rel=\"noopener\">LinkedIn</a>.",
-
-    "footer.tagline": "Solid software systems. Built without compromise.",
-    "footer.copyright": "© 2026 LowRange Labs. All rights reserved."
+    "contact.title": "Let’s talk about your project.",
+    "contact.text": "Have an app idea or want to explore how AI could help you? Tell us what you have in mind.",
+    "contact.text2": "Call us on <a href=\"tel:+40771340319\">+40 771 340 319</a> or send us a message on <a href=\"https://www.linkedin.com/company/lowrange-labs/\" target=\"_blank\" rel=\"noopener\">LinkedIn</a>.",
+    "footer.tagline": "Apps and games, built with care.",
+    "footer.copyright": "© 2026 LowRange Labs. All rights reserved.",
+    "service4.title": "AI consulting",
+    "service4.desc": "We help you understand how AI could support your business, choose suitable tools and try them on real tasks. We talk openly about benefits, costs and limitations so you know where to start."
   }
 };
 
