@@ -1,5 +1,15 @@
 const LRL_I18N = {
   "ro": {
+    "contact.name": "Nume",
+    "contact.email": "Email",
+    "contact.message": "Cu ce te putem ajuta?",
+    "contact.privacy": "Detalii despre prelucrarea datelor în <a href=\"privacy.html\">politica de confidențialitate</a>.",
+    "contact.send": "Trimite mesajul",
+    "contact.sending": "Se trimite…",
+    "contact.success": "Mulțumim! Mesajul tău a fost trimis.",
+    "contact.error": "Mesajul nu a putut fi trimis. Încearcă din nou sau contactează-ne telefonic ori pe LinkedIn.",
+    "contact.unavailable": "Formularul nu este încă disponibil. Ne poți contacta telefonic sau pe LinkedIn.",
+
     "meta.title": "LowRange Labs — Aplicații, automatizări și integrări AI",
     "nav.home": "Acasă",
     "nav.about": "Despre noi",
@@ -43,6 +53,16 @@ const LRL_I18N = {
     "service4.desc": "Te ajutăm să înțelegi ce poți face cu AI în afacerea ta, să alegi instrumentele potrivite și să le testezi pe sarcini concrete. Discutăm deschis despre beneficii, costuri și limite, ca să știi de unde să începi."
   },
   "en": {
+    "contact.name": "Name",
+    "contact.email": "Email",
+    "contact.message": "How can we help?",
+    "contact.privacy": "Read about how your data is handled in our <a href=\"privacy.html\">privacy policy</a>.",
+    "contact.send": "Send message",
+    "contact.sending": "Sending…",
+    "contact.success": "Thank you! Your message has been sent.",
+    "contact.error": "Your message could not be sent. Please try again or contact us by phone or on LinkedIn.",
+    "contact.unavailable": "The form is not available yet. Please contact us by phone or on LinkedIn.",
+
     "meta.title": "LowRange Labs — Apps, AI automation and integrations",
     "nav.home": "Home",
     "nav.about": "About",

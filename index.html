@@ -193,6 +193,25 @@
       <p class="eyebrow" data-i18n="contact.eyebrow">Contact</p>
       <h2 data-i18n="contact.title">Hai să vorbim despre proiectul tău.</h2>
       <p data-i18n="contact.text">Ai o idee de aplicație sau vrei să afli cum te-ar putea ajuta AI? Spune-ne ce ai în minte.</p>
+      <form class="contact-form" id="contact-form" aria-label="Contact" aria-describedby="contact-status">
+        <div class="contact-fields">
+          <div class="contact-field">
+            <label for="contact-name" data-i18n="contact.name">Nume</label>
+            <input id="contact-name" name="name" autocomplete="name" required maxlength="120">
+          </div>
+          <div class="contact-field">
+            <label for="contact-email" data-i18n="contact.email">Email</label>
+            <input id="contact-email" name="email" type="email" autocomplete="email" required maxlength="254">
+          </div>
+        </div>
+        <div class="contact-field">
+          <label for="contact-message" data-i18n="contact.message">Cu ce te putem ajuta?</label>
+          <textarea id="contact-message" name="message" rows="6" required maxlength="5000"></textarea>
+        </div>
+        <p class="contact-privacy" data-i18n="contact.privacy">Detalii despre prelucrarea datelor în <a href="privacy.html">politica de confidențialitate</a>.</p>
+        <button class="btn btn-primary" type="submit" disabled data-i18n="contact.send">Trimite mesajul</button>
+        <p id="contact-status" class="contact-status" role="status" aria-live="polite" data-i18n="contact.unavailable">Formularul nu este încă disponibil. Ne poți contacta telefonic sau pe LinkedIn.</p>
+      </form>
       <p class="contact-alt" data-i18n="contact.text2">Sună-ne la <a href="tel:+40771340319">0771 340 319</a> sau trimite-ne un mesaj pe <a href="https://www.linkedin.com/company/lowrange-labs/" target="_blank" rel="noopener">LinkedIn</a>.</p>
     </div>
   </section>
@@ -223,5 +242,6 @@
 
 <script src="js/i18n.js"></script>
 <script src="js/main.js"></script>
+<script src="js/contact.js"></script>
 </body>
 </html>
