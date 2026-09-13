@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Outroads — Explore beyond the road</title>
+<meta name="description" content="Outroads este o aplicație de hărți pentru explorare în aer liber, cu hărți offline, trasee GPX și straturi utile de hartă.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Outroads — Explore beyond the road">
+<meta property="og:description" content="Hărți offline, trasee GPX și straturi utile pentru explorare în aer liber.">
+<meta property="og:image" content="https://lowrangelabs.github.io/assets/img/outroads-hero.png">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="outroads-page">
+<div class="topo-overlay" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand" aria-label="LowRange Labs">
+      <img src="assets/img/brand-mark.png" alt="" width="44" height="44" class="brand-mark">
+      <img src="assets/img/brand-wordmark.png" alt="LowRange Labs" class="brand-wordmark">
+    </a>
+    <nav class="main-nav" id="main-nav">
+      <a href="index.html" data-i18n="outroads.nav.home">LowRange Labs</a>
+      <a href="#features" data-i18n="outroads.nav.features">Funcții</a>
+      <a href="#about-outroads" data-i18n="outroads.nav.about">Despre aplicație</a>
+    </nav>
+    <div class="header-actions">
+      <div class="lang-toggle" role="group" aria-label="Language switch">
+        <button type="button" data-lang="ro" class="lang-btn is-active">RO</button>
+        <button type="button" data-lang="en" class="lang-btn">EN</button>
+      </div>
+      <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="outroads-hero">
+    <div class="outroads-hero-image" aria-hidden="true"><img src="assets/img/outroads-hero.png" alt=""></div>
+    <div class="container outroads-hero-content">
+      <p class="eyebrow" data-i18n="outroads.eyebrow">O aplicație LowRange Labs</p>
+      <h1>Outroads</h1>
+      <p class="outroads-tagline">Explore beyond the road.</p>
+      <p class="lede" data-i18n="outroads.hero.text">Hărți gândite pentru momentele în care drumul se termină și începe explorarea. Planifică, urmărește și păstrează aproape informațiile de care ai nevoie pe traseu.</p>
+      <p class="outroads-availability" data-i18n="outroads.availability">Disponibilă pe Android · iOS în curând</p>
+      <div class="outroads-store-actions" aria-label="Outroads availability">
+        <!-- Înlocuiește href-ul și codul QR cu linkul final din Google Play. -->
+        <a class="store-badge store-badge-android" href="https://play.google.com/store/apps/details?id=REPLACE_WITH_PACKAGE_ID" data-i18n-aria-label="outroads.android.aria" aria-label="Descarcă Outroads pentru Android">
+          <img src="assets/img/google-play-badge.png" alt="Get it on Google Play">
+        </a>
+        <a class="store-badge store-badge-disabled" href="https://www.apple.com/app-store/" target="_blank" rel="noopener" aria-disabled="true" title="Disponibil în curând" data-i18n-aria-label="outroads.ios.aria" aria-label="Outroads pentru iOS, disponibilă în curând">
+          <img src="assets/img/app-store-badge.svg" alt="Download on the App Store">
+          <span class="store-badge-soon" data-i18n="outroads.ios.soon">În curând</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="outroads-intro" id="about-outroads">
+    <div class="container outroads-intro-grid">
+      <div>
+        <p class="eyebrow" data-i18n="outroads.intro.eyebrow">Pentru ieșiri în natură</p>
+        <h2 data-i18n="outroads.intro.title">Înaintezi mai sigur când vezi imaginea de ansamblu.</h2>
+      </div>
+      <div class="outroads-intro-text"><p data-i18n="outroads.intro.text">Harta, traseele și straturile utile se întâlnesc într-un singur loc. Outroads îți oferă contextul de care ai nevoie înainte să pornești — de la traseul ales până la reperele care contează pe teren.</p></div>
+    </div>
+  </section>
+
+  <section class="outroads-features" id="features">
+    <div class="container">
+      <p class="eyebrow" data-i18n="outroads.features.eyebrow">Ce poți face</p>
+      <h2 data-i18n="outroads.features.title">Pregătit pentru traseu.</h2>
+      <div class="outroads-feature-grid">
+        <article class="outroads-feature-card">
+          <img src="assets/img/outroads-offline-maps.png" alt="Ecran Outroads pentru descărcarea unei hărți offline" loading="lazy">
+          <div class="outroads-feature-copy"><span class="feature-number">01</span><h3 data-i18n="outroads.offline.title">Hărți offline</h3><p data-i18n="outroads.offline.text">Selectează zona care te interesează și păstrează harta disponibilă și atunci când nu ai semnal.</p></div>
+        </article>
+        <article class="outroads-feature-card">
+          <img src="assets/img/outroads-gpx.png" alt="Ecran Outroads pentru import de trasee GPX" loading="lazy">
+          <div class="outroads-feature-copy"><span class="feature-number">02</span><h3 data-i18n="outroads.gpx.title">Import GPX</h3><p data-i18n="outroads.gpx.text">Importă un fișier GPX pentru a vedea traseul direct pe hartă și pentru a-l avea la îndemână în explorare.</p></div>
+        </article>
+        <article class="outroads-feature-card">
+          <img src="assets/img/outroads-layers.png" alt="Ecran Outroads cu straturi de hartă" loading="lazy">
+          <div class="outroads-feature-copy"><span class="feature-number">03</span><h3 data-i18n="outroads.layers.title">Straturi utile de hartă</h3><p data-i18n="outroads.layers.text">Adaugă context hărții prin straturi pentru trasee, camping, apă, vârfuri și alte repere utile.</p></div>
+        </article>
+        <article class="outroads-feature-card">
+          <img src="assets/img/outroads-protected.png" alt="Ecran Outroads cu strat pentru arii protejate" loading="lazy">
+          <div class="outroads-feature-copy"><span class="feature-number">04</span><h3 data-i18n="outroads.protected.title">Arii protejate</h3><p data-i18n="outroads.protected.text">Vizualizează straturi dedicate ariilor protejate pentru o planificare mai atentă a ieșirilor în natură.</p></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="outroads-closing">
+    <div class="container">
+      <div class="outroads-closing-inner">
+        <p class="eyebrow">Outroads</p>
+        <h2 data-i18n="outroads.closing.title">Explorează mai departe.</h2>
+        <p data-i18n="outroads.closing.text">Disponibilă acum pe Android. iOS urmează în curând.</p>
+        <a class="btn btn-secondary" href="index.html#portfolio" data-i18n="outroads.closing.cta">Înapoi la proiectele LowRange Labs</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand"><a href="index.html" class="brand"><img src="assets/img/brand-mark.png" alt="" width="36" height="36" class="brand-mark"><img src="assets/img/brand-wordmark.png" alt="LowRange Labs" class="brand-wordmark"></a></div>
+    <div class="footer-legal"><p class="copyright" data-i18n="footer.copyright">© 2026 LowRange Labs. All rights reserved.</p><span>·</span><a href="privacy.html">Privacy Policy</a></div>
+  </div>
+</footer>
+<script src="js/i18n.js"></script>
+<script src="js/outroads-i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

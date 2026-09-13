@@ -27,7 +27,8 @@ const LRL_I18N = {
     "portfolio.eyebrow": "Proiectele noastre",
     "portfolio.title": "La ce lucrăm",
     "outroads.desc": "O aplicație pentru cei cărora le place să exploreze în aer liber. Reunește hărți ale ariilor protejate din Europa și informații despre restricțiile de acces, pentru a te ajuta să îți planifici ieșirile cu grijă pentru natură.",
-    "outroads.status": "Lansare în curând",
+    "outroads.status": "Disponibilă pe Android · iOS în curând",
+    "outroads.page_link": "Descoperă Outroads <span aria-hidden=\"true\">→</span>",
     "snakshund.desc": "Un joc puzzle care combină logica și fizica. Fiecare mutare pe tabla de joc este o ocazie să încerci o nouă soluție.",
     "snakshund.status": "În curând pe iOS și Android",
     "blockpuzzle.name": "Block Puzzle Project",
@@ -80,7 +81,8 @@ const LRL_I18N = {
     "portfolio.eyebrow": "Our projects",
     "portfolio.title": "What we’re working on",
     "outroads.desc": "An app for people who enjoy exploring outdoors. It brings together maps of protected areas across Europe and information about access restrictions to help you plan your trips with care for nature.",
-    "outroads.status": "Coming Soon",
+    "outroads.status": "Available on Android · iOS coming soon",
+    "outroads.page_link": "Discover Outroads <span aria-hidden=\"true\">→</span>",
     "snakshund.desc": "A puzzle game that combines logic and physics. Each move on the board is a chance to try a new solution.",
     "snakshund.status": "Coming Soon on iOS &amp; Android",
     "blockpuzzle.name": "Block Puzzle Project",
@@ -126,6 +128,11 @@ function lrlApplyLang(lang) {
   document.querySelectorAll("[data-i18n-html]").forEach((el) => {
     const key = el.getAttribute("data-i18n-html");
     if (dict[key] !== undefined) el.innerHTML = dict[key];
+  });
+
+  document.querySelectorAll("[data-i18n-aria-label]").forEach((el) => {
+    const key = el.getAttribute("data-i18n-aria-label");
+    if (dict[key] !== undefined) el.setAttribute("aria-label", dict[key]);
   });
 
   if (dict["meta.title"]) document.title = dict["meta.title"];
