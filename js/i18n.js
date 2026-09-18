@@ -138,6 +138,10 @@ function lrlApplyLang(lang) {
   if (dict["meta.title"]) document.title = dict["meta.title"];
   document.documentElement.lang = lang;
 
+  if (typeof window.lrlApplyLegalLanguage === "function") {
+    window.lrlApplyLegalLanguage(lang);
+  }
+
   document.querySelectorAll(".lang-btn").forEach((btn) => {
     btn.classList.toggle("is-active", btn.getAttribute("data-lang") === lang);
   });
