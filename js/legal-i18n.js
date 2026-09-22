@@ -16,7 +16,7 @@
       <p>Prin descărcarea, instalarea sau utilizarea Aplicației, accepți să respecți acești Termeni. Dacă nu ești de acord, nu utiliza Serviciul.</p>
 
       <h2>1. Despre Serviciu</h2>
-      <p>Outroads este o aplicație de navigație pentru activități în aer liber și drumeții, disponibilă pentru iOS și Android, care oferă date cartografice, stiluri de hartă, straturi pentru arii protejate și acoperirea terenului, informații despre trasee și locuri de campare, descărcarea hărților pentru utilizare offline și posibilitatea de a importa și vizualiza propriile trasee GPX. Outroads este un instrument de orientare și nu înlocuiește judecata, pregătirea și experiența ta atunci când călătorești în natură.</p>
+      <p>Outroads este o aplicație de navigație pentru activități în aer liber și drumeții, disponibilă pentru iOS și Android, care oferă date cartografice, stiluri de hartă, hărți tematice pentru arii protejate și acoperirea terenului, informații despre trasee și locuri de campare, descărcarea hărților pentru utilizare offline și posibilitatea de a importa și vizualiza propriile trasee GPX. Outroads este un instrument de orientare și nu înlocuiește judecata, pregătirea și experiența ta atunci când călătorești în natură.</p>
 
       <h2>2. Eligibilitate</h2>
       <p>Trebuie să ai cel puțin 16 ani sau vârsta consimțământului digital din țara ta, dacă aceasta este mai mare, pentru a utiliza Serviciul. Dacă utilizezi Serviciul în numele unui minor, ești responsabil pentru respectarea acestor Termeni de către acesta.</p>
@@ -37,20 +37,20 @@
       <p>Putem suspenda sau înceta accesul tău la Serviciu dacă avem motive rezonabile să credem că ai încălcat acești Termeni.</p>
 
       <h2>5. Date cartografice și date de la terți</h2>
-      <p>Aplicația afișează straturi cartografice și seturi de date furnizate de terți. Aceste seturi de date sunt furnizate de sursele respective „ca atare”, iar fiecare este supus propriilor condiții de licențiere și atribuire, afișate în Aplicație atunci când este necesar.</p>
+      <p>Aplicația afișează hărți tematice și seturi de date furnizate de terți. Aceste seturi de date sunt furnizate de sursele respective „ca atare”, iar fiecare este supus propriilor condiții de licențiere și atribuire, afișate în Aplicație atunci când este necesar.</p>
       <p>Nu creăm, verificăm și nu garantăm exactitatea, integralitatea sau actualitatea datelor cartografice furnizate de terți. Starea traseelor, limitele ariilor protejate, informațiile despre locurile de campare și datele similare pot fi depășite, incomplete sau inexacte și pot să nu reflecte condițiile reale, închiderile sezoniere, limitele proprietăților private sau restricțiile locale.</p>
 
       <h2>6. Importuri GPX și conținutul utilizatorului</h2>
       <p>Aplicația îți permite să imporți propriile fișiere cu trasee GPX pentru a le afișa pe hartă. Orice fișiere imporți rămân responsabilitatea ta. Declari că ai dreptul de a utiliza și importa fișierele încărcate și că acest lucru nu încalcă drepturile unei terțe părți. Traseele importate sunt procesate și stocate local pe dispozitivul tău, iar noi nu le verificăm conținutul, exactitatea sau siguranța.</p>
 
       <h2>7. Hărți offline</h2>
-      <p>Aplicația îți permite să descarci date și straturi cartografice pentru utilizare offline. Hărțile offline sunt oferite pentru comoditate și, la fel ca toate datele cartografice din Serviciu, pot deveni depășite și sunt supuse limitărilor de exactitate descrise în Secțiunea 5. Ești responsabil să menții descărcările offline actualizate și să verifici informațiile importante prin surse oficiale înainte de a te baza pe ele pe teren.</p>
+      <p>Aplicația îți permite să descarci date și hărți tematice pentru utilizare offline. Hărțile offline sunt oferite pentru comoditate și, la fel ca toate datele cartografice din Serviciu, pot deveni depășite și sunt supuse limitărilor de exactitate descrise în Secțiunea 5. Ești responsabil să menții descărcările offline actualizate și să verifici informațiile importante prin surse oficiale înainte de a te baza pe ele pe teren.</p>
 
       <h2>8. Conturi</h2>
       <p>În prezent, Serviciul nu necesită un cont de utilizator. Dacă vom introduce conturi în viitor, termenii suplimentari privind înregistrarea, datele de autentificare și securitatea contului îți vor fi prezentați la acel moment.</p>
 
       <h2>9. Funcții plătite în viitor</h2>
-      <p>În prezent, Serviciul este oferit gratuit. În viitor, putem introduce funcții plătite, abonamente sau achiziții în aplicație (de exemplu, straturi cartografice premium ori spațiu offline extins). Dacă vom face acest lucru, prețurile, condițiile de facturare, reînnoire și anulare și politica de rambursare aplicabile vor fi comunicate înainte de achiziție și, după caz, procesate prin Apple App Store sau Google Play, conform condițiilor acestora. Acești Termeni vor fi actualizați înainte de introducerea oricăror funcții plătite.</p>
+      <p>În prezent, Serviciul este oferit gratuit. În viitor, putem introduce funcții plătite, abonamente sau achiziții în aplicație (de exemplu, hărți tematice premium ori spațiu offline extins). Dacă vom face acest lucru, prețurile, condițiile de facturare, reînnoire și anulare și politica de rambursare aplicabile vor fi comunicate înainte de achiziție și, după caz, procesate prin Apple App Store sau Google Play, conform condițiilor acestora. Acești Termeni vor fi actualizați înainte de introducerea oricăror funcții plătite.</p>
 
       <h2>10. Activități în aer liber — asumarea riscurilor</h2>
       <p><strong>Activitățile în aer liber și cele montane implică riscuri inerente, inclusiv, fără limitare, pericole ale terenului, vreme nefavorabilă, animale sălbatice, distanța față de ajutor, erori de orientare și vătămări corporale sau deces.</strong> Prin utilizarea Serviciului pentru planificarea sau sprijinirea activităților în aer liber, recunoști și accepți că:</p>

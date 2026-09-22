@@ -4,10 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Outroads — Explore beyond the road</title>
-<meta name="description" content="Outroads este o aplicație de hărți pentru explorare în aer liber, cu hărți offline, trasee GPX și straturi utile de hartă.">
+<meta name="description" content="Outroads este o aplicație de hărți pentru explorare în aer liber, cu hărți offline, trasee GPX și informații utile pe hartă.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Outroads — Explore beyond the road">
-<meta property="og:description" content="Hărți offline, trasee GPX și straturi utile pentru explorare în aer liber.">
+<meta property="og:description" content="Hărți offline, trasee GPX și informații utile pentru explorare în aer liber.">
 <meta property="og:image" content="https://lowrangelabs.github.io/assets/img/outroads-hero.png">
 <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -47,8 +47,11 @@
       <p class="eyebrow" data-i18n="outroads.eyebrow">O aplicație LowRange Labs</p>
       <h1>Outroads</h1>
       <p class="outroads-tagline">Explore beyond the road.</p>
-      <p class="lede" data-i18n="outroads.hero.text">Hărți gândite pentru momentele în care drumul se termină și începe explorarea. Planifică, urmărește și păstrează aproape informațiile de care ai nevoie pe traseu.</p>
-      <p class="outroads-availability" data-i18n="outroads.availability">Disponibilă pe Android · iOS în curând</p>
+      <p class="lede" data-i18n="outroads.hero.text">Outroads te ajută să explorezi mai departe, cu hărți detaliate, trasee GPX, înregistrarea ieșirilor și informații utile pe hartă — toate într-un singur loc.</p>
+      <div class="outroads-availability" aria-label="Outroads availability">
+        <span data-i18n="outroads.availability.android">Android</span>
+        <span data-i18n="outroads.availability.ios">iOS în curând</span>
+      </div>
       <div class="outroads-store-actions" aria-label="Outroads availability">
         <!-- Înlocuiește href-ul și codul QR cu linkul final din Google Play. -->
         <a class="store-badge store-badge-android" href="https://play.google.com/store/apps/details?id=ro.pestemunti.app&amp;pcampaignid=web_share" data-i18n-aria-label="outroads.android.aria" aria-label="Descarcă Outroads pentru Android">
@@ -63,12 +66,22 @@
   </section>
 
   <section class="outroads-intro" id="about-outroads">
-    <div class="container outroads-intro-grid">
+    <div class="container">
+      <div class="outroads-intro-grid">
       <div>
-        <p class="eyebrow" data-i18n="outroads.intro.eyebrow">Pentru ieșiri în natură</p>
-        <h2 data-i18n="outroads.intro.title">Înaintezi mai sigur când vezi imaginea de ansamblu.</h2>
+        <p class="eyebrow" data-i18n="outroads.intro.eyebrow">Despre aplicație</p>
+        <h2 data-i18n="outroads.intro.title">Explorează dincolo de drumurile obișnuite.</h2>
       </div>
-      <div class="outroads-intro-text"><p data-i18n="outroads.intro.text">Harta, traseele și straturile utile se întâlnesc într-un singur loc. Outroads îți oferă contextul de care ai nevoie înainte să pornești — de la traseul ales până la reperele care contează pe teren.</p></div>
+      <div class="outroads-intro-text" data-i18n="outroads.intro.text">Outroads este o aplicație simplă de hărți pentru explorarea dincolo de drumurile obișnuite.<br><br>Folosește hărți detaliate, importă trasee GPX, înregistrează-ți ieșirile și accesează informații utile pe hartă, fie că explorezi cu mașina, bicicleta sau pe jos.<br><br>Fie că mergi la munte, urmezi drumuri forestiere sau planifici un weekend în natură, Outroads păstrează instrumentele de care ai nevoie într-un singur loc.<br><br>Outroads este concepută să rămână simplă: harta rămâne în centru, iar instrumentele de care ai nevoie sunt mereu aproape. Explorează responsabil și verifică regulile locale înainte de a intra în zone cu acces restricționat.</div>
+      </div>
+      <div class="outroads-about-feature-grid" aria-label="Funcții Outroads">
+        <article class="outroads-about-feature-card"><span class="outroads-about-feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6.5 9 4l6 2.5L20 4v13.5l-5 2.5-6-2.5-5 2.5V6.5Z"/><path d="M9 4v13.5M15 6.5V20"/></svg></span><h3 data-i18n="outroads.styles.title">Stiluri de hartă</h3><p data-i18n="outroads.styles.text">Alege harta potrivită: outdoor, topografică, satelit și altele.</p></article>
+        <article class="outroads-about-feature-card"><span class="outroads-about-feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v5h5M10 13h5M10 17h5"/></svg></span><h3 data-i18n="outroads.gpx.title">Import GPX</h3><p data-i18n="outroads.gpx.text">Importă fișiere GPX și afișează traseele direct pe hartă.</p></article>
+        <article class="outroads-about-feature-card"><span class="outroads-about-feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 7v5l3 2"/></svg></span><h3 data-i18n="outroads.recording.title">Înregistrare traseu</h3><p data-i18n="outroads.recording.text">Înregistrează pe unde ai trecut în timp ce explorezi.</p></article>
+        <article class="outroads-about-feature-card"><span class="outroads-about-feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m12 3 8 4.5-8 4.5-8-4.5L12 3Z"/><path d="m4 12 8 4.5 8-4.5M4 16.5l8 4.5 8-4.5"/></svg></span><h3 data-i18n="outroads.layers.title">Informații utile</h3><p data-i18n="outroads.layers.text">Vezi arii protejate, campinguri, râuri și alte repere.</p></article>
+        <article class="outroads-about-feature-card"><span class="outroads-about-feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3v11M8 10l4 4 4-4M5 15v5h14v-5"/></svg></span><h3 data-i18n="outroads.offline.title">Hărți offline</h3><p data-i18n="outroads.offline.text">Descarcă hărți înainte de plecare, când semnalul e limitat.</p></article>
+        <article class="outroads-about-feature-card"><span class="outroads-about-feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="m15.5 8.5-2 5-5 2 2-5 5-2Z"/></svg></span><h3 data-i18n="outroads.orientation.title">Poziție și orientare</h3><p data-i18n="outroads.orientation.text">Înțelege unde ești și în ce direcție mergi.</p></article>
+      </div>
     </div>
   </section>
 
@@ -79,19 +92,19 @@
       <div class="outroads-feature-grid">
         <article class="outroads-feature-card">
           <img src="assets/img/outroads-offline-maps.png" alt="Ecran Outroads pentru descărcarea unei hărți offline" loading="lazy">
-          <div class="outroads-feature-copy"><span class="feature-number">01</span><h3 data-i18n="outroads.offline.title">Hărți offline</h3><p data-i18n="outroads.offline.text">Selectează zona care te interesează și păstrează harta disponibilă și atunci când nu ai semnal.</p></div>
+          <div class="outroads-feature-copy"><span class="feature-number">01</span><h3 data-i18n="outroads.feature.offline.title">Hărți offline</h3><p data-i18n="outroads.feature.offline.text">Selectează zona care te interesează și păstrează harta disponibilă și atunci când nu ai semnal.</p></div>
         </article>
         <article class="outroads-feature-card">
           <img src="assets/img/outroads-gpx.png" alt="Ecran Outroads pentru import de trasee GPX" loading="lazy">
-          <div class="outroads-feature-copy"><span class="feature-number">02</span><h3 data-i18n="outroads.gpx.title">Import GPX</h3><p data-i18n="outroads.gpx.text">Importă un fișier GPX pentru a vedea traseul direct pe hartă și pentru a-l avea la îndemână în explorare.</p></div>
+          <div class="outroads-feature-copy"><span class="feature-number">02</span><h3 data-i18n="outroads.feature.gpx.title">Import GPX</h3><p data-i18n="outroads.feature.gpx.text">Importă un fișier GPX pentru a vedea traseul direct pe hartă și pentru a-l avea la îndemână în explorare.</p></div>
         </article>
         <article class="outroads-feature-card">
-          <img src="assets/img/outroads-layers.png" alt="Ecran Outroads cu straturi de hartă" loading="lazy">
-          <div class="outroads-feature-copy"><span class="feature-number">03</span><h3 data-i18n="outroads.layers.title">Straturi utile de hartă</h3><p data-i18n="outroads.layers.text">Adaugă context hărții prin straturi pentru trasee, camping, apă, vârfuri și alte repere utile.</p></div>
+          <img src="assets/img/outroads-layers.png" alt="Ecran Outroads cu informații utile pe hartă" loading="lazy">
+          <div class="outroads-feature-copy"><span class="feature-number">03</span><h3 data-i18n="outroads.feature.layers.title">Informații utile pe hartă</h3><p data-i18n="outroads.feature.layers.text">Adaugă context hărții prin informații despre trasee, camping, apă, vârfuri și alte repere utile.</p></div>
         </article>
         <article class="outroads-feature-card">
-          <img src="assets/img/outroads-protected.png" alt="Ecran Outroads cu strat pentru arii protejate" loading="lazy">
-          <div class="outroads-feature-copy"><span class="feature-number">04</span><h3 data-i18n="outroads.protected.title">Arii protejate</h3><p data-i18n="outroads.protected.text">Vizualizează straturi dedicate ariilor protejate pentru o planificare mai atentă a ieșirilor în natură.</p></div>
+          <img src="assets/img/outroads-protected.png" alt="Ecran Outroads cu arii protejate" loading="lazy">
+          <div class="outroads-feature-copy"><span class="feature-number">04</span><h3 data-i18n="outroads.feature.protected.title">Arii protejate</h3><p data-i18n="outroads.feature.protected.text">Vizualizează ariile protejate pentru o planificare mai atentă a ieșirilor în natură.</p></div>
         </article>
       </div>
     </div>
