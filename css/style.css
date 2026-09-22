@@ -638,14 +638,14 @@ a { color: inherit; text-decoration: none; }
 .outroads-intro-text::before { content: "ABOUT OUTROADS"; display: block; margin-bottom: 16px; color: #a86d15; font-family: var(--font-mono); font-size: .68rem; letter-spacing: .14em; }
 .outroads-intro-text strong { color: #173d29; }
 .outroads-intro-text p { color: #486154; font-size: clamp(1.08rem, 1.5vw, 1.22rem); line-height: 1.7; margin: 0; }
-.outroads-about-feature-grid { position: relative; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin-top: 30px; }
-.outroads-about-feature-card { padding: 18px; border: 1px solid rgba(17, 44, 29, .12); border-radius: 16px; background: rgba(255, 253, 247, .78); box-shadow: 0 10px 24px rgba(24, 48, 30, .06); }
-.outroads-about-feature-icon { display: inline-flex; align-items: center; justify-content: center; width: 38px; height: 38px; margin-bottom: 15px; border-radius: 11px; background: #173d29; color: #f4dfaa; }
-.outroads-about-feature-icon svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+.outroads-about-feature-grid { position: relative; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-top: 30px; }
+.outroads-about-feature-card { display: grid; grid-template-columns: 32px minmax(0, 1fr); column-gap: 12px; align-items: start; padding: 15px; border: 1px solid rgba(17, 44, 29, .12); border-radius: 14px; background: rgba(255, 253, 247, .78); box-shadow: 0 8px 18px rgba(24, 48, 30, .05); }
+.outroads-about-feature-icon { display: inline-flex; grid-row: span 2; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 9px; background: #173d29; color: #f4dfaa; }
+.outroads-about-feature-icon svg { width: 17px; height: 17px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
 .outroads-about-feature-card:nth-child(2) .outroads-about-feature-icon, .outroads-about-feature-card:nth-child(5) .outroads-about-feature-icon { background: #93651c; }
 .outroads-about-feature-card:nth-child(3) .outroads-about-feature-icon, .outroads-about-feature-card:nth-child(6) .outroads-about-feature-icon { background: #2d6244; }
-.outroads-about-feature-card h3 { color: #112c1d; font-size: 1rem; margin: 0 0 .45rem; }
-.outroads-about-feature-card p { color: #587064; font-size: .84rem; line-height: 1.5; margin: 0; }
+.outroads-about-feature-card h3 { color: #112c1d; font-size: .96rem; line-height: 1.2; margin: 1px 0 .3rem; }
+.outroads-about-feature-card p { grid-column: 2; color: #587064; font-size: .78rem; line-height: 1.42; margin: 0; }
 .outroads-features { padding: 110px 0; background: #e8ece3; }
 .outroads-feature-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; margin-top: 42px; }
 .outroads-feature-card { overflow: hidden; background: #f9f7f0; border: 1px solid rgba(17, 44, 29, .12); border-radius: 20px; box-shadow: 0 18px 36px rgba(24, 48, 30, .08); }
@@ -719,7 +719,9 @@ a { color: inherit; text-decoration: none; }
   .outroads-intro-text { padding: 22px 20px; border-left-width: 3px; border-radius: 14px; font-size: 1rem; line-height: 1.65; }
   .outroads-intro-text::before { margin-bottom: 14px; font-size: .6rem; }
   .outroads-about-feature-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-top: 24px; }
-  .outroads-about-feature-card { padding: 16px; }
+  .outroads-about-feature-card { grid-template-columns: 30px minmax(0, 1fr); column-gap: 10px; padding: 14px; }
+  .outroads-about-feature-icon { width: 30px; height: 30px; }
+  .outroads-about-feature-card p { font-size: .76rem; }
   .outroads-feature-grid { grid-template-columns: 1fr; gap: 20px; margin-top: 28px; }
   .outroads-feature-card img { height: 460px; }
 }
