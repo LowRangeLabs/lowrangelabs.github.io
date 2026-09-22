@@ -707,6 +707,7 @@ a { color: inherit; text-decoration: none; }
   .footer-inner { flex-direction: column; text-align: center; }
   .outroads-hero { min-height: 650px; align-items: flex-end; }
   .outroads-hero-image::after { background: linear-gradient(0deg, rgba(9, 17, 12, .96) 0%, rgba(9, 17, 12, .58) 55%, rgba(9, 17, 12, .15)); }
+  .outroads-hero-image img { object-position: 60% center; }
   .outroads-hero-content { padding-top: 220px; padding-bottom: 48px; }
   .outroads-hero h1 { font-size: clamp(3.4rem, 18vw, 5.5rem); }
   .outroads-intro, .outroads-features, .outroads-closing { padding: 72px 0; }
