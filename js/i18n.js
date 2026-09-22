@@ -48,7 +48,7 @@ const LRL_I18N = {
     "contact.title": "Hai să vorbim despre proiectul tău.",
     "contact.text": "Ai o idee de aplicație sau vrei să afli cum te-ar putea ajuta AI? Spune-ne ce ai în minte.",
     "contact.text2": "Sună-ne la <a href=\"tel:+40771340319\">0771 340 319</a>, scrie-ne la <a href=\"mailto:lowrangelabs@gmail.com\">lowrangelabs@gmail.com</a> sau trimite-ne un mesaj pe <a href=\"https://www.linkedin.com/company/lowrange-labs/\" target=\"_blank\" rel=\"noopener\">LinkedIn</a>.",
-    "footer.tagline": "Aplicații și jocuri, construite cu grijă.",
+    "footer.tagline": "Aplicații și jocuri. Automatizări și integrări AI.",
     "footer.copyright": "© 2026 LowRange Labs. All rights reserved.",
     "service4.title": "Consultanță AI",
     "service4.desc": "Te ajutăm să înțelegi ce poți face cu AI în afacerea ta, să alegi instrumentele potrivite și să le testezi pe sarcini concrete. Discutăm deschis despre beneficii, costuri și limite, ca să știi de unde să începi."
@@ -102,7 +102,7 @@ const LRL_I18N = {
     "contact.title": "Let’s talk about your project.",
     "contact.text": "Have an app idea or want to explore how AI could help you? Tell us what you have in mind.",
     "contact.text2": "Call us on <a href=\"tel:+40771340319\">+40 771 340 319</a>, email us at <a href=\"mailto:lowrangelabs@gmail.com\">lowrangelabs@gmail.com</a>, or send us a message on <a href=\"https://www.linkedin.com/company/lowrange-labs/\" target=\"_blank\" rel=\"noopener\">LinkedIn</a>.",
-    "footer.tagline": "Apps and games, built with care.",
+    "footer.tagline": "Apps and games. AI automation and integrations.",
     "footer.copyright": "© 2026 LowRange Labs. All rights reserved.",
     "service4.title": "AI consulting",
     "service4.desc": "We help you understand how AI could support your business, choose suitable tools and try them on real tasks. We talk openly about benefits, costs and limitations so you know where to start."
