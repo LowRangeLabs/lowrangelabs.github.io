@@ -91,7 +91,6 @@
 
       <h2>19. Contact</h2>
       <p>Întrebările despre acești Termeni pot fi trimise la <a href="mailto:lowrangelabs@gmail.com">lowrangelabs@gmail.com</a>.</p>
-      <p class="tc-notice">Acest document ar trebui revizuit de un avocat înainte de a fi indicat în Aplicația live sau în listările din App Store și Play Store.</p>
     `,
     privacy: `
       <a href="index.html" class="back-link">← Înapoi la LowRange Labs</a>
