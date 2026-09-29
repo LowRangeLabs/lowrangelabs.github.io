@@ -10,7 +10,7 @@
       <a href="index.html" class="back-link">← Înapoi la LowRange Labs</a>
       <p class="eyebrow">Legal · Outroads</p>
       <h1>Termeni și condiții</h1>
-      <p class="legal-meta">Ultima actualizare: 18 septembrie 2026 · Acest document este disponibil în limba română și în limba engleză.</p>
+      <p class="legal-meta">Ultima actualizare: 29 septembrie 2026 · Acest document este disponibil în limba română și în limba engleză.</p>
 
       <p>Prezentul document („Termenii”) reglementează accesul și utilizarea aplicației mobile Outroads („Aplicația”) și a oricărui website asociat (împreună, „Serviciul”), operat de LowRange Labs („noi”, „nouă”, „al nostru”). LowRange Labs poate fi contactat la <a href="mailto:lowrangelabs@gmail.com">lowrangelabs@gmail.com</a>.</p>
       <p>Prin descărcarea, instalarea sau utilizarea Aplicației, accepți să respecți acești Termeni. Dacă nu ești de acord, nu utiliza Serviciul.</p>
@@ -96,7 +96,7 @@
       <a href="index.html" class="back-link">← Înapoi la LowRange Labs</a>
       <p class="eyebrow">Legal</p>
       <h1>Politica de confidențialitate</h1>
-      <p class="legal-meta">Ultima actualizare: 18 septembrie 2026 · Acest document este disponibil în limba română și în limba engleză.</p>
+      <p class="legal-meta">Ultima actualizare: 29 septembrie 2026 · Acest document este disponibil în limba română și în limba engleză.</p>
       <p>Această Politică de confidențialitate explică modul în care <strong>LowRange Labs</strong> („noi”, „nouă”, „al nostru”) colectează, utilizează și protejează informațiile atunci când folosești website-urile și aplicațiile noastre, inclusiv <strong>Outroads</strong> și orice alte aplicații sau jocuri publicate de noi (fiecare, o „Aplicație”). Politica se aplică tuturor produselor noastre; detaliile specifice fiecărei aplicații sunt prezentate în secțiunea <a href="#apps">Date colectate pentru fiecare aplicație</a>.</p>
       <p>Dacă nu ești de acord cu această politică, te rugăm să nu utilizezi aplicațiile sau website-ul nostru.</p>
       <h2>1. Informațiile pe care le colectăm</h2>
