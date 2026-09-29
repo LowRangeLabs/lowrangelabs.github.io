@@ -19,6 +19,7 @@ Object.assign(LRL_I18N.ro, {
 });
 Object.assign(LRL_I18N.en, {
   "outroads.meta.title": "Outroads — Explore beyond the road",
+  "outroads.footer.terms": "Terms and Conditions",
   "outroads.nav.home": "LowRange Labs", "outroads.nav.features": "Features", "outroads.nav.about": "About the app",
   "outroads.eyebrow": "A LowRange Labs app", "outroads.hero.text": "Outroads helps you explore farther with detailed maps, GPX routes, trip recording and useful map layers — all in one place.", "outroads.availability": "Available on Android · iOS coming soon", "outroads.availability.android": "Android", "outroads.availability.ios": "iOS coming soon",
   "outroads.android.aria": "Download Outroads for Android", "outroads.ios.aria": "Outroads for iOS, coming soon", "outroads.ios.soon": "Coming soon",
