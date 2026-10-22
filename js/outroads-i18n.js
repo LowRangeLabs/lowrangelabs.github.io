@@ -11,10 +11,15 @@ Object.assign(LRL_I18N.ro, {
   "outroads.layers.title": "Informații utile", "outroads.layers.text": "Vezi arii protejate, campinguri, râuri și alte repere.",
   "outroads.offline.title": "Hărți offline", "outroads.offline.text": "Descarcă hărți înainte de plecare, când semnalul e limitat.",
   "outroads.orientation.title": "Poziție și orientare", "outroads.orientation.text": "Înțelege unde ești și în ce direcție mergi.",
-  "outroads.feature.offline.title": "Hărți offline", "outroads.feature.offline.text": "Selectează zona care te interesează și păstrează harta disponibilă și atunci când nu ai semnal.",
-  "outroads.feature.gpx.title": "Import GPX", "outroads.feature.gpx.text": "Importă un fișier GPX pentru a vedea traseul direct pe hartă și pentru a-l avea la îndemână în explorare.",
-  "outroads.feature.layers.title": "Informații utile pe hartă", "outroads.feature.layers.text": "Adaugă context hărții prin informații despre trasee, camping, apă, vârfuri și alte repere utile.",
-  "outroads.feature.protected.title": "Arii protejate", "outroads.feature.protected.text": "Vizualizează ariile protejate pentru o planificare mai atentă a ieșirilor în natură.",
+  "outroads.feature.explore.title": "Explorează în apropiere", "outroads.feature.explore.text": "Descoperă trasee și repere din jurul tău direct pe harta topografică.",
+  "outroads.feature.layers.title": "Straturi utile pe hartă", "outroads.feature.layers.text": "Activează informații despre trasee, campinguri, ape, vârfuri și alte repere.",
+  "outroads.feature.protected.title": "Arii protejate", "outroads.feature.protected.text": "Vezi limitele ariilor protejate pe hartă și planifică-ți explorarea cu grijă.",
+  "outroads.feature.offline.title": "Hărți offline", "outroads.feature.offline.text": "Descarcă zona de care ai nevoie înainte de plecare și consultă harta fără semnal.",
+  "outroads.feature.gpx.title": "Importă trasee GPX", "outroads.feature.gpx.text": "Importă un fișier GPX și urmărește traseul direct pe hartă.",
+  "outroads.feature.follow.title": "Urmărește-ți traseul", "outroads.feature.follow.text": "Păstrează traseul la vedere și urmărește-ți poziția în timp ce înaintezi.",
+  "outroads.feature.trail.title": "Concepută pentru traseu", "outroads.feature.trail.text": "Ține harta, orientarea și înregistrarea ieșirii aproape, într-o singură aplicație.",
+  "outroads.feature.places.title": "Salvează locurile preferate", "outroads.feature.places.text": "Marchează puncte de belvedere, campinguri și alte locuri pe care vrei să le regăsești.",
+  "outroads.feature.record.title": "Înregistrează și distribuie", "outroads.feature.record.text": "Înregistrează ieșirea, revizuiește detaliile traseului și distribuie aventura.",
   "outroads.closing.title": "Explorează mai departe.", "outroads.closing.text": "Disponibilă acum pe Android. iOS urmează în curând.", "outroads.closing.cta": "Înapoi la proiectele LowRange Labs"
 });
 Object.assign(LRL_I18N.en, {
@@ -31,10 +36,15 @@ Object.assign(LRL_I18N.en, {
   "outroads.layers.title": "Useful map information", "outroads.layers.text": "See protected areas, campsites, rivers and other landmarks.",
   "outroads.offline.title": "Offline maps", "outroads.offline.text": "Download maps before your trip when coverage is limited.",
   "outroads.orientation.title": "Location and orientation", "outroads.orientation.text": "Understand where you are and which way you are heading.",
-  "outroads.feature.offline.title": "Offline maps", "outroads.feature.offline.text": "Select an area and keep its map available when you have no signal.",
-  "outroads.feature.gpx.title": "Import GPX", "outroads.feature.gpx.text": "Import a GPX file to see its route directly on the map while exploring.",
-  "outroads.feature.layers.title": "Useful map information", "outroads.feature.layers.text": "Add context with information about trails, campsites, water, peaks and other landmarks.",
-  "outroads.feature.protected.title": "Protected areas", "outroads.feature.protected.text": "View protected areas to plan your time outdoors more thoughtfully.",
+  "outroads.feature.explore.title": "Explore nearby", "outroads.feature.explore.text": "Discover nearby trails and landmarks directly on the topographic map.",
+  "outroads.feature.layers.title": "Useful map layers", "outroads.feature.layers.text": "Turn on information about trails, campsites, water, peaks and other landmarks.",
+  "outroads.feature.protected.title": "Protected areas", "outroads.feature.protected.text": "See protected area boundaries on the map and plan your exploration thoughtfully.",
+  "outroads.feature.offline.title": "Offline maps", "outroads.feature.offline.text": "Download the area you need before setting out and view it without a signal.",
+  "outroads.feature.gpx.title": "Import GPX routes", "outroads.feature.gpx.text": "Import a GPX file and follow its route directly on the map.",
+  "outroads.feature.follow.title": "Follow your route", "outroads.feature.follow.text": "Keep your route in view and track your position as you make your way along it.",
+  "outroads.feature.trail.title": "Built for the trail", "outroads.feature.trail.text": "Keep maps, orientation and trip recording close together in one app.",
+  "outroads.feature.places.title": "Save favorite places", "outroads.feature.places.text": "Mark viewpoints, campsites and other places you want to find again.",
+  "outroads.feature.record.title": "Record and share", "outroads.feature.record.text": "Record your trip, review route details and share the adventure.",
   "outroads.closing.title": "Explore farther.", "outroads.closing.text": "Available now on Android. iOS is coming soon.", "outroads.closing.cta": "Back to LowRange Labs projects"
 });
 
