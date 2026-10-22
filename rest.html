@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rest: Slow down. Do nothing. — LowRange Labs</title>
+<meta name="description" content="Rest: Slow down. Do nothing. is a quiet place to take a break from everything, choose your time, and keep your progress private.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Rest: Slow down. Do nothing.">
+<meta property="og:description" content="Rest: Slow down. Do nothing. is a quiet place to take a break from everything, choose your time, and keep your progress private.">
+<meta property="og:image" content="https://lowrangelabs.github.io/assets/img/og-image.jpg">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="rest-page">
+<div class="topo-overlay" aria-hidden="true"></div>
+<div class="grid-overlay" aria-hidden="true"></div>
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html#top" class="brand">
+      <img src="assets/img/brand-mark.png" alt="" width="44" height="44" class="brand-mark">
+      <img src="assets/img/brand-wordmark.png" alt="LowRange Labs" class="brand-wordmark">
+    </a>
+    <nav class="main-nav" id="main-nav">
+      <a href="index.html#top" data-i18n="nav.home">Acasă</a>
+      <a href="index.html#about" data-i18n="nav.about">Despre noi</a>
+      <a href="index.html#portfolio" data-i18n="nav.portfolio">Portofoliu</a>
+      <a href="index.html#services" data-i18n="nav.services">Servicii</a>
+      <a href="index.html#contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <div class="lang-toggle" role="group" aria-label="Language switch">
+        <button type="button" data-lang="ro" class="lang-btn is-active">RO</button>
+        <button type="button" data-lang="en" class="lang-btn">EN</button>
+      </div>
+      <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+<main>
+  <section class="rest-hero">
+    <div class="container rest-hero-grid">
+      <div class="rest-hero-copy">
+        <h1 data-motion data-i18n="rest.hero.title">Rest: Slow down.<br>Do nothing.</h1>
+        <p class="rest-tagline" data-motion data-i18n="rest.hero.text">Take a break from everything. No tasks to finish. No score to chase. Just a little time that belongs to you.</p>
+        <a class="btn btn-primary rest-contact" href="mailto:lowrangelabs@gmail.com?subject=Rest%20app%20updates&amp;body=I%E2%80%99d%20like%20to%20know%20when%20Rest%20is%20available." data-i18n="rest.hero.cta">Ask about Rest</a>
+        <p class="rest-coming" data-i18n="rest.hero.coming">Coming soon on iOS and Android</p>
+      </div>
+    </div>
+  </section>
+  <section class="rest-about" id="about">
+    <div class="container rest-about-grid">
+      <h2 data-motion data-i18n="rest.about.title">A pause, on purpose.</h2>
+        <div><p data-motion data-i18n="rest.about.p1">The app gives you a space to pause on purpose. Pick a duration, put the phone down, and let the moment be what it is.</p><p data-motion data-i18n="rest.about.p2">Sit, look out the window, take a walk, or simply be. Nothing else is required.</p></div>
+    </div>
+  </section>
+  <section class="rest-sessions" id="sessions">
+    <div class="container">
+      <h2 data-motion data-i18n="rest.sessions.title">Make room for a pause</h2>
+      <div class="rest-session-list">
+        <article data-motion><h3 data-i18n="rest.session.one.title">Your time, your choice.</h3><p data-i18n="rest.session.one.text">Start with a few minutes, choose a custom session from 1 minute to 5 hours, or leave the timer open-ended. Pause or stop whenever you need to.</p><div class="rest-duration"><label for="pause-duration" data-i18n="rest.duration.label">Choose a pause</label><input id="pause-duration" type="range" min="1" max="300" value="5" aria-describedby="pause-duration-value"><output id="pause-duration-value" for="pause-duration" aria-live="polite">5 minutes</output></div></article>
+        <article data-motion><h3 data-i18n="rest.session.two.title">A journey with no pressure.</h3><p data-i18n="rest.session.two.text">The optional journey invites you to stay a little longer, from a few minutes into longer pauses. There are no streaks, rankings, or penalties for stepping away.</p></article>
+        <article data-motion><h3 data-i18n="rest.session.three.title">A record just for you.</h3><p data-i18n="rest.session.three.text">See your completed sessions and reflect on how you feel. Your session history and reflections stay on your device.</p></article>
+      </div>
+    </div>
+  </section>
+  <section class="rest-details" id="details">
+    <div class="container rest-details-grid">
+      <h2 data-motion data-i18n="rest.details.title">Made for quiet time</h2>
+      <ul><li data-motion data-i18n="rest.detail.two">No account or ads</li><li data-motion data-i18n="rest.detail.three">Core experience works offline</li><li data-motion data-i18n="rest.detail.four">Session history and reflections stay on your device</li><li data-motion data-i18n="rest.detail.five">Production versions send crash diagnostics to help us fix errors</li></ul>
+    </div>
+  </section>
+  <section class="rest-closing">
+    <div class="container rest-closing-inner"><h2 data-motion data-i18n="rest.closing.title">A little space to be.</h2><p data-motion data-i18n="rest.closing.text">Choose a moment. Let everything else wait.</p><p class="rest-coming" data-i18n="rest.closing.coming">Coming soon on iOS and Android</p></div>
+  </section>
+</main>
+<footer class="site-footer"><div class="container footer-inner"><div class="footer-brand"><a href="index.html" class="brand"><img src="assets/img/brand-mark.png" alt="" width="36" height="36" class="brand-mark"><img src="assets/img/brand-wordmark.png" alt="LowRange Labs" class="brand-wordmark"></a></div><div class="footer-legal"><p class="copyright">© 2026 LowRange Labs. All rights reserved.</p><span>·</span><a href="terms-rest.html" data-i18n="rest.footer.terms">Terms and Conditions</a><span>·</span><a href="privacy.html" data-i18n="rest.footer.privacy">Privacy Policy</a><span>·</span><a href="mailto:lowrangelabs@gmail.com" data-i18n="rest.footer.contact">Contact</a></div></div></footer>
+<script src="js/i18n.js"></script><script src="js/rest-i18n.js"></script><script src="js/main.js"></script>
+</body>
+</html>
